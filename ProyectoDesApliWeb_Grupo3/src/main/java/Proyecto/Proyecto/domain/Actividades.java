@@ -1,5 +1,9 @@
 package Proyecto.Proyecto.domain;
 
-public class Actividades {
+public class Actividades{
+    
 
+    
+    
+    
 }
