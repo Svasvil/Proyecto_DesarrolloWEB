@@ -8,7 +8,7 @@ import lombok.Data;
 @Entity
 @Table(name = "reservas")
 
-public class Reserva implements Serializable {
+public class Reservas implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -30,10 +30,10 @@ public class Reserva implements Serializable {
         Suite, Estandar, Premium
     }
 
-    public Reserva() {
+    public Reservas() {
     }
 
-    public Reserva(Integer idUsuario, Integer idHabitacion, boolean activa, String fecha, CategoriaHabitacion categoriaHabitacion) {
+    public Reservas(Integer idUsuario, Integer idHabitacion, boolean activa, String fecha, CategoriaHabitacion categoriaHabitacion) {
         this.idUsuario = idUsuario;
         this.idHabitacion = idHabitacion;
         this.activa = activa;

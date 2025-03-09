@@ -1,8 +1,8 @@
 package Proyecto.Proyecto.service;
 
-import Proyecto.Proyecto.domain.Service;
-import java.util.list;
+import Proyecto.Proyecto.domain.Reservas;
+import java.util.List;
 
 public interface ReservasService {
-    public List<Reserva> getReserva(boolean activos);
+    public List<Reservas> getReservas(boolean activos);
 }
