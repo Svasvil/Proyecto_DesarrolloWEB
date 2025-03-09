@@ -4,5 +4,5 @@ import Proyecto.Proyecto.domain.Reservas;
 import java.util.List;
 
 public interface ReservasService {
-    public List<Reservas> getReservas(boolean activos);
+    public List<Reservas> getReservas(boolean activa);
 }

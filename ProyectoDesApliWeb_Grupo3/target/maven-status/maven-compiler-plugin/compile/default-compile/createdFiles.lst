@@ -21,6 +21,7 @@ Proyecto\Proyecto\domain\Servicios.class
 Proyecto\Proyecto\service\impl\ActividadesServiceImpl.class
 Proyecto\Proyecto\ProjectConfig.class
 Proyecto\Proyecto\dao\ServiciosDao.class
+Proyecto\Proyecto\domain\Reservas$CategoriaHabitacion.class
 Proyecto\Proyecto\service\impl\ReservasServiceImpl.class
 Proyecto\Proyecto\domain\Usuarios.class
 Proyecto\Proyecto\dao\ActividadesDao.class

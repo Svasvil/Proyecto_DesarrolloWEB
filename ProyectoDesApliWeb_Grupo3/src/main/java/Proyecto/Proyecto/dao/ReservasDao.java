@@ -1,8 +1,8 @@
 package Proyecto.Proyecto.dao;
 
-import EjercPractico1.EjercPractico1.domain.Reserva;
+import Proyecto.Proyecto.domain.Reservas;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface ReservaDao extends JpaRepository<Reserva, Long> {
+public interface ReservasDao extends JpaRepository<Reservas, Long> {
     
 }
